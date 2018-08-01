@@ -4,7 +4,7 @@
 
 <!--<div class="image h50 w100" style="background-image: url(images/kitchen.jpg);"></div>-->
 
-<video controls class="h50 w100">
+<video webkit-playsinline playsinline controls autoplay class="h50 w100">
     <source src="images/film.mp4" type="video/mp4">
 </video>
 

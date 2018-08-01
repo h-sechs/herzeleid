@@ -23,4 +23,6 @@
     </platform>
     <engine name="android" spec="~6.3.0" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+
 </widget>
