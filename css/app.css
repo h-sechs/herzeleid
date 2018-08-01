@@ -1,0 +1,299 @@
+/* !Windows Phone 8 */
+@-ms-viewport {
+  width: 100%;
+  height: device-height;
+}
+
+@viewport {
+  width: 100%;
+  height: device-height;
+}
+
+
+/* Font */
+@font-face {
+  font-family: regular;
+  src: url('font/FoundersGrotesk-Regular.otf');
+}
+
+@font-face {
+  font-family: light;
+  src: url('font/FoundersGrotesk-Light.otf');
+}
+
+@font-face {
+  font-family: medium;
+  src: url('font/FoundersGrotesk-Medium.otf');
+}
+
+@font-face {
+  font-family: Semibold;
+  src: url('font/FoundersGrotesk-Semibold.otf');
+}
+
+@font-face {
+  font-family: bold;
+  src: url('font/FoundersGrotesk-Bold.otf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+h1 {
+    font-family: semibold;
+    color: white;
+    font-size: 180%;
+}
+
+h2 {
+    font-family: semibold;
+    color: white;
+    font-size: 150%;
+}
+
+h3 {
+    font-family: light;
+    color: white;
+    font-size: 125%;
+}
+
+
+h4 {
+    font-family: bold;
+    color: white;
+    font-size: 350%;
+}
+
+h5 {
+    font-family: regular;
+    color: white;
+    font-size: 150%;
+}
+
+
+p1 {
+    font-family: light;
+    color: white;
+    font-size: 100%;
+}
+
+
+html {
+    /* Recommended for Windows 8 Phone */
+    /* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+    -ms-touch-action: pan-x ;
+
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+}
+
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+
+    /* Recommended for Windows 8 Phone */
+    /* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+
+    -ms-overflow-style: none !important;
+    -ms-scroll-translation: vertical-to-horizontal;
+
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+
+    font-family: light;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+input, textarea  {
+    /* allow copy-paste */
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+button {
+  width: 100%;
+  
+  border: none;
+  outline: none;
+
+  font-family: regular;
+  background-color: transparent;
+  font-size: 100%;
+
+    
+    
+  /* border: 1px solid #ccc;*/
+}
+
+
+
+button1 {
+  width: 100%;
+  
+  border: none;
+  outline: none;
+
+  font-family: medium;
+  background-color: transparent;
+  font-size: 65%;
+
+    
+    
+  /* border: 1px solid #ccc;*/
+}
+
+.buttonfarbe {color: white;
+    opacity: 0.28;}
+
+p {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.scrollable-y {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+
+.scrollable-x {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+body {
+    
+    background-color: black;
+    color: white;
+    font-size: 85%;
+}
+
+
+
+/***** Navigation Overlay ******/  
+.navigation {
+    position: fixed;
+    z-index: 10000;
+}
+
+
+
+/************* Grid ************/
+
+.gabor {background-color: gainsboro;}
+.h1 {height: 1vh;}
+.h2 {height: 2vh;}
+.h3 {height: 3vh;}
+.h4 {height: 4vh;}
+.h5 {height: 5vh;}
+.h10 {height: 10vh;}
+.h20 {height: 20vh;}
+.h30 {height: 30vh;}
+.h40 {height: 40vh;}
+.h50 {height: 50vh;}
+.h90 {height: 90vh;}
+.h95 {height: 95vh;}
+.h100 {height: 100vh;}
+
+.w100 {width: 100vw;}
+.w50 {width: 50vw;}
+.w90 {width: 90vw;}
+.w75 {width: 75vw;}
+.w25 {width: 25vw;}
+.w10 {width: 10vw;}
+
+
+
+.flex {display: flex; /*das startet das Flexsystem*/}
+
+.f1 {flex: 30%;}
+.f2 {flex: 40%;}
+.f3 {flex: 30%;}
+.center {text-align: center;}
+
+/*********** Hintergründe ****************/
+.bkgr-home {
+    background-image: url(../images/home-01-01.png);
+    background-size: cover;
+}
+
+
+
+
+/*********** Track ****************/
+.track {width:280vw;
+    background-image: url(../images/strich.jpg);
+    background-size: 180vw 1px;
+    background-position: 5vw 10vh;
+    background-repeat: no-repeat;
+}
+
+.menu {padding: 2.5vw;}
+.ball {width: 10vw; height: 10vw; border: 1px solid white; color: white;
+border-radius: 10vw;background-color:#000;}
+
+
+
+.image {
+    background-size: cover;
+    background-position: center;}
+
+.image_list {
+    background-size: 75%;
+    background-position: right bottom;
+    background-repeat: no-repeat;}
+
+.image2 {background-size: 100% 100%;
+background-repeat: no-repeat;}
+
+.image3 {
+    background-size: 50% 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;}
+
+.image4 {background-size: 100% 100%;
+background-position:center;
+background-repeat: no-repeat;}
+
+.pagebutton1 {color: white;}
+
+.color {color: white;}
+
+.einruecken_text {margin-left: 5rem;}
+.einruecken_head {margin-left: 1rem;}
+.einruecken_rechts {margin-right: 5rem;}
+
+.linksbuendig {text-align: left;}
+.rechtsbuendig {text-align: right;}
+.text_eingerueckt {padding: 1rem;}
+
+.kochen {margin-bottom: 1rem;
+margin-right: 1rem;}
+
+
+.einblenden {animation: fadeIn ease-in 1}
+
