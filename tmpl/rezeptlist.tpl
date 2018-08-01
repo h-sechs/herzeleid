@@ -1,5 +1,5 @@
 
-<div class="image_list h100 w100" style="background-image: url(images/Till_mein_Teil.png)">
+<div class="image_list h100 w100 scrollable-y" style="background-image: url(images/Till_mein_Teil.png)">
 <div class="navigation h10 w100 flex">
     <button class="f1 pageBtn" data-page="rezeptstart" data-direction="right" data-duration="1" data-animate="ease-in-out"><img src="images/zurück.png" class="h2"></button>
     
@@ -13,14 +13,11 @@
 <div class="h10 w100 flex">
     <button class="f1 color"></button>
 </div>
-<div class="h30 menu">
+<div class="menu">
 <div class="einruecken_head"><h4>JÜNGSTES<br>GERICHT</h4></div>
 <div class="einruecken_text"><p>Till kocht schon seit dem er ein kleiner Knabe war. Heute stellt er euch sein ganz persönliches Lieblingsrezept vor: blutiges Steak mit Beilage. Einfach zum nachkochen und passt perfekt zum „Herz“. </p></div>
 </div>
 
-<!----
-<div class="h20"><h2>FÜR <button class="pageBtn color">4</button> PORTIONEN:</h2></div>
------>
 
 <div class="h5"></div>
 <div class="h5 einruecken_head"><h2>Für 4 Portionen</h2></div>
@@ -44,8 +41,3 @@
 
 
 </div>
-<!---
-***Text rechtsbündig******
-align="right"--->
-<!------
-<p1 class="color linksbuendig text_eingerueckt ">zurück</p1> --------->
